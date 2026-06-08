@@ -66,7 +66,7 @@ E --> H[Email / SMS Alerts]
 
 ### 💻 Web Dashboard UI
 <p align="center">
-  <img src="Images/Website.png" width="45%" />
+  <img src="Images/Website.png" width="80%" />
 </p>
 
 ---
