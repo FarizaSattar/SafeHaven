@@ -41,7 +41,7 @@ It combines:
 
 ### 🏗️ High-Level Architecture
 
-![SafeHaven System Block Diagram](System%20Block%20Diagram.png)
+![SafeHaven System Block Diagram](Images/System%20Block%20Diagram.png)
 
 ---
 
