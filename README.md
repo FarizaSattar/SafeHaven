@@ -277,15 +277,7 @@ SafeHaven is designed for:
 - Assisted living facilities  
 - Smart home safety systems  
 
----
 
-## 🚀 Future Improvements
-
-- Machine learning-based anomaly detection  
-- Mobile app (React Native)  
-- Voice assistant integration  
-- Camera-based activity detection  
-- Predictive health analytics  
 
 ---
 
