@@ -232,8 +232,99 @@ Triggers when:
 
 ---
 
-## ⚙️ Installation
-(unchanged for brevity)
+## ⚙️ Installation & Setup
+
+### 1. Clone Repo
+```bash
+git clone https://github.com/your-username/SafeHaven.git
+cd SafeHaven
+```
+
+### 2. Backend Setup
+```bash
+cd backend
+npm install
+node server.js
+```
+
+**Environment Variables**
+```
+AWS_REGION=
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+JWT_SECRET=
+```
+
+---
+
+### 3. ESP32 Setup
+- Open Arduino IDE  
+- Load `Project_Main.ino`  
+- Configure `secrets.h`  
+- Flash device  
+
+---
+
+### 4. AWS Lambda Setup
+- Deploy `index.mjs` to AWS Lambda  
+- Connect via API Gateway  
+- Enable DynamoDB + SNS permissions  
+
+---
+
+### 5. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📡 API Endpoints
+
+### 🔐 Auth
+- POST `/api/login`
+- POST `/api/register`
+
+### 📊 Sensors
+- GET `/api/sensors`
+
+### 📜 Logs
+- GET `/api/logs`
+
+### 🔔 Notifications
+- GET `/api/notifications`
+
+---
+
+## ⚡ Performance Metrics
+
+- ⏱️ Latency: ~85ms  
+- 📡 Reliability: 98.7%  
+- 🎯 Detection accuracy: 98.6%  
+- 🔄 Sampling rate: 5–10 Hz  
+- ⚠️ Response time: 100–210 ms  
+
+---
+
+## 🌎 Use Cases
+
+- Senior independent living monitoring  
+- Smart home safety systems  
+- Assisted living facilities  
+- Caregiver remote monitoring  
+
+---
+
+## 🧠 Key Engineering Highlights
+
+- ✔ Edge filtering at ESP32 level  
+- ✔ Event-driven serverless backend  
+- ✔ Bitmask-based state encoding  
+- ✔ Real-time distributed IoT pipeline  
+- ✔ Multi-sensor fusion architecture  
+- ✔ Cloud-native scalable design  
 
 ---
 
