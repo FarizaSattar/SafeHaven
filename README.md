@@ -187,7 +187,7 @@ SafeHaven/
 │   ├── SensorLogic.h
 │   └── secrets.h
 │
-├── backend/
+├── Backend/
 │   ├── server.js
 │   ├── checkTable.js
 │   ├── createUser.js
