@@ -236,7 +236,7 @@ Triggers when:
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/your-username/SafeHaven.git
+git clone https://github.com/FarizaSattar/SafeHaven.git
 cd SafeHaven
 ```
 
