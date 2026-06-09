@@ -1,9 +1,6 @@
 # ⚡ SafeHaven
 
 <p align="left">
-  <img src="https://img.shields.io/github/stars/FarizaSattar/SafeHaven?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/FarizaSattar/SafeHaven?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/FarizaSattar/SafeHaven?style=for-the-badge" />
   <img src="https://img.shields.io/badge/stack-ESP32%20%7C%20AWS%20%7C%20React%20%7C%20Node-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/system-IoT%20Security%20Platform-success?style=for-the-badge" />
 </p>
